@@ -514,21 +514,21 @@ footer:first-of-type .row:nth-of-type(2) .col:first-of-type p{
     font-family: 'Regular';
     font-weight: bold;
 }
-footer:first-of-type .row:first-of-type .col:first-of-type form input{
+footer:first-of-type .row:first-of-type .col:first-of-type input.inputform {
     width: 100%;
     height: 70px;
     padding: 10px;
-    border: 2px solid #b7edde !important;
+    border: 2px solid #b7edde;
     font-size: 25px;
     color: #d3d3d3;
     font-family: 'Regular';
 }
-footer:first-of-type .row:first-of-type .col:first-of-type form input[name="message"]{
+footer:first-of-type .row:first-of-type .col:first-of-type input.inputform[name="message"]{
     width: 100%;
     height: 200px;
     padding: 10px 0 0 10px !important; 
 }
-footer:first-of-type .row:first-of-type .col:first-of-type form input[name="email"]{
+footer:first-of-type .row:first-of-type .col:first-of-type input.inputform[name="email"]{
     margin: 25px 0;
 }
 footer:first-of-type .row:first-of-type .col:nth-of-type(2) p.btn{
@@ -539,21 +539,33 @@ footer:first-of-type .row:first-of-type .col:nth-of-type(2) p.btn{
     font-size: 40px;
     text-transform: uppercase;
     background: #00c3a1;
-    margin: 38px 0 0 0;
 }
-input.checkbox{
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-    background: white;
-    font-family: 'Regular';
-    border: 2px solid #b7edde;
-    appearance: none;
-}
-footer:first-of-type .row:first-of-type .col:nth-of-type(2) img{
+footer:first-of-type .row:first-of-type .col:nth-of-type(2) img.chair{
     position: relative;
     z-index: 3;
     bottom: 25px;
     left: 10px;
     background-size: cover;
+}
+footer:first-of-type .row:first-of-type .col:nth-of-type(2) .checkpanel{
+    width: 100%;
+    min-height: 50px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 3;
+    bottom: 25px;
+}
+footer:first-of-type .row:first-of-type .col:nth-of-type(2) .checkpanel img.checkimg{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #b7edde;
+    padding: 2px;
+    float: left;
+    margin-right: 15px;
+}
+footer:first-of-type .row:first-of-type .col:nth-of-type(2) .checkpanel p{
+    font-size: 20px;
+    color: #d3d3d3;
+    font-family: 'Regular';
+    padding: 5px;
 }
