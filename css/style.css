@@ -431,3 +431,129 @@ sup {
     position: relative;
     top: -1.25em;
 }
+/* FOOTER */
+
+footer:first-of-type .row:first-of-type .undercolor {
+  width: 31%;
+  font-size: 25px !important;
+  color: #565657 !important;
+  text-transform: uppercase;
+  font-family: 'Regular' !important;
+
+}
+footer:first-of-type {
+  padding-top: 30px;
+}
+footer:first-of-type .row{
+    width: 100%;
+    min-height: 100px;
+    max-height: 500px;
+}
+footer:first-of-type .row:nth-of-type(2){
+    width: 100%;
+    height: 100px;
+    max-height: 200px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+footer:first-of-type .row:first-of-type .col:first-of-type{
+    width: 58%;
+    min-height: 350px;
+    max-height: 500px;
+    margin-right: 41.25px;
+    margin-top: 50px;
+}
+footer:first-of-type .row:first-of-type .col:nth-of-type(2){
+    width: 34.5%;
+    min-height: 350px;
+    max-height: 500px;
+    float: right;
+    margin-left: 41.25px;
+    margin-top: 50px;
+    
+}
+footer:first-of-type .row:nth-of-type(2) .col:first-of-type{
+    width: 58%;
+    height: 100px;
+    max-height: 200px;
+    margin-right: 41.25px;
+    padding: 32px 0;
+    
+}
+footer:first-of-type .row:nth-of-type(2) .col:nth-of-type(2){
+    width: 34.5%;
+    height: 100px;
+    max-height: 200px;
+    float: right;
+    margin-left: 41.25px;
+    padding: 32px 0;
+}
+.social {
+    display: inline;
+    float: left;
+    height: 35px;
+}
+footer:first-of-type .row:nth-of-type(2) .col:nth-of-type(2) p{
+    display: inline;
+    float: right;
+    margin: 10px 0;
+    font-size: 25px;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer:first-of-type .row:nth-of-type(2) .col:nth-of-type(2) span{
+    color: #989898;
+}
+footer:first-of-type .row:nth-of-type(2) .col:first-of-type p{
+    display: inline;
+    float: left;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #a0a0a0;
+    font-family: 'Regular';
+    font-weight: bold;
+}
+footer:first-of-type .row:first-of-type .col:first-of-type form input{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid #b7edde !important;
+    font-size: 25px;
+    color: #d3d3d3;
+    font-family: 'Regular';
+}
+footer:first-of-type .row:first-of-type .col:first-of-type form input[name="message"]{
+    width: 100%;
+    height: 200px;
+    padding: 10px 0 0 10px !important; 
+}
+footer:first-of-type .row:first-of-type .col:first-of-type form input[name="email"]{
+    margin: 25px 0;
+}
+footer:first-of-type .row:first-of-type .col:nth-of-type(2) p.btn{
+    width: 100%;
+    border-radius: 8px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    background: #00c3a1;
+    margin: 38px 0 0 0;
+}
+input.checkbox{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background: white;
+    font-family: 'Regular';
+    border: 2px solid #b7edde;
+    appearance: none;
+}
+footer:first-of-type .row:first-of-type .col:nth-of-type(2) img{
+    position: relative;
+    z-index: 3;
+    bottom: 25px;
+    left: 10px;
+    background-size: cover;
+}
